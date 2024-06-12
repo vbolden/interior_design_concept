@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js" defer></script>
+    <title>Interior Design || Concept Webpage</title>
+    
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="row container">
+        <a href="#" class="logo"><img src="media/logo.png" alt=""></a>
+        <button class="toggleMenu" onclick="toggleMenu();"></button>
+        <nav class="navigation row">
+            <a href="#">Home</a>
+            <a href="#">Pages</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+            <a href="#" id="search"><box-icon name='search'></box-icon></a>
+        </nav>
+    </header>
+    <!-- End Navigation -->
+    
+    <!-- Hero -->
+    <section class="hero">
+        <div class="row container">
+            <div class="hero-content">
+                <h1>Let your home be unique</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, rem magnam tenetur commodi consequuntur consectetur.</p>
+                <a href="#" class="page-btn row">
+                    Get started
+                    <box-icon name='right-arrow-alt' color='#ffffff' ></box-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Cards -->
+    <section class="cards column grid container">
+        <div>
+            <h4>Project plan</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit, itaque doloremque consectetur.</p>
+            <a href="#" class="page-btn active row">
+                Read more
+                <box-icon name='right-arrow-alt'></box-icon>
+            </a>
+        </div>
+        <div>
+            <h4>Interior work</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit, itaque doloremque consectetur.</p>
+            <a href="#" class="page-btn active row">
+                Read more
+                <box-icon name='right-arrow-alt'></box-icon>
+            </a>
+        </div>
+        <div>
+            <h4>Realization</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit, itaque doloremque consectetur.</p>
+            <a href="#" class="page-btn active row">
+                Read more
+                <box-icon name='right-arrow-alt'></box-icon>
+            </a>
+        </div>
+    </section>
+    <!-- End Cards -->
+
+    <!-- Contact -->
+    <section class="contact row flex container">
+        <div class="contact-content">
+            <h2>We create the art of stylish living stylishly</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente saepe ea molestias iste tempora veritatis harum accusantium assumenda quae laborum, magnam, atque commodi odio porro natus! Ipsa omnis cumque consectetur.</p>
+            <a href="tel:+012 345 6789" class="details row">
+                <div class="row">
+                    <box-icon type='solid' name='phone' size='md'></box-icon>
+                </div>
+                <div>
+                    <h4>+012 345 6789</h4>
+                    <p>Call us anytime!</p>
+                </div>
+            </a>
+            <a href="#" class="page-btn row">
+                Get free estimate
+                <box-icon name='right-arrow-alt' color='#292f36' ></box-icon>
+            </a>
+        </div>
+        <div class="contact-img"><img src="media/img2.jpg" alt=""></div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Testimonial -->
+    <section class="testimonial container">
+        <h2>What the people think about us</h2>
+        <div class="swiper mySwiper testimonial-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="profile row">
+                    <div><img src="media/p1.jpg" alt=""></div>
+                    <div>
+                        <h4>Emily Johnson</h4>
+                        <p>Denver, CO</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quod!</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="profile row">
+                    <div><img src="media/p2.jpg" alt=""></div>
+                    <div>
+                        <h4>Emily Johnson</h4>
+                        <p>Denver, CO</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quod!</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="profile row">
+                    <div><img src="media/p3.jpg" alt=""></div>
+                    <div>
+                        <h4>Emily Johnson</h4>
+                        <p>Denver, CO</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quod!</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="profile row">
+                    <div><img src="media/p1.jpg" alt=""></div>
+                    <div>
+                        <h4>Emily Johnson</h4>
+                        <p>Denver, CO</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quod!</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="profile row">
+                    <div><img src="media/p2.jpg" alt=""></div>
+                    <div>
+                        <h4>Emily Johnson</h4>
+                        <p>Denver, CO</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quod!</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="profile row">
+                    <div><img src="media/p3.jpg" alt=""></div>
+                    <div>
+                        <h4>Emily Johnson</h4>
+                        <p>Denver, CO</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quod!</p>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+    <!-- End Testimonial -->
+
+    <!-- Logos -->
+    <section class="logos row container">
+        <div><img src="media/logo1.png" alt=""></div>
+        <div><img src="media/logo2.png" alt=""></div>
+        <div><img src="media/logo3.png" alt=""></div>
+        <div><img src="media/logo4.png" alt=""></div>
+        <div><img src="media/logo5.png" alt=""></div>
+    </section>
+    <!-- End Logos -->
+
+    <!-- Projects -->
+    <section class="project container">
+        <div class="heading">
+            <h2>Follow our projects</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat suscipit quos incidunt eum doloremque pariatur.</p>
+        </div>
+        <div class="project-cards row flex">
+            <a href="#" class="p-card column">
+                <div><img src="media/c1.jpg" alt=""></div>
+                <div class="p-card-content row">
+                    <div>
+                        <h4>Modern Kitchen</h4>
+                        <p>Decor / Architecture</p>
+                    </div>
+                    <div class="row">
+                        <box-icon name='chevron-right' color='#cda274' size="md" ></box-icon>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="p-card column">
+                <div><img src="media/c2.jpg" alt=""></div>
+                <div class="p-card-content row">
+                    <div>
+                        <h4>Modern Kitchen</h4>
+                        <p>Decor / Architecture</p>
+                    </div>
+                    <div class="row">
+                        <box-icon name='chevron-right' color='#cda274' size="md" ></box-icon>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="p-card column">
+                <div><img src="media/c3.jpg" alt=""></div>
+                <div class="p-card-content row">
+                    <div>
+                        <h4>Modern Kitchen</h4>
+                        <p>Decor / Architecture</p>
+                    </div>
+                    <div class="row">
+                        <box-icon name='chevron-right' color='#cda274' size="md" ></box-icon>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="p-card column">
+                <div><img src="media/c4.jpg" alt=""></div>
+                <div class="p-card-content row">
+                    <div>
+                        <h4>Modern Kitchen</h4>
+                        <p>Decor / Architecture</p>
+                    </div>
+                    <div class="row">
+                        <box-icon name='chevron-right' color='#cda274' size="md" ></box-icon>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- End Projects -->
+
+    <!-- Numbers -->
+    <section class="numbers">
+        <div class="row container">
+            <div>
+                <div class="number">12</div>
+                <p>Years of experience</p>
+            </div>
+            <div>
+                <div class="number">85</div>
+                <p>Sucess projects</p>
+            </div>
+            <div>
+                <div class="number">14</div>
+                <p>Active projects</p>
+            </div>
+            <div>
+                <div class="number">76</div>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Numbers -->
+
+    <!-- Article -->
+    <section class="article container">
+        <div class="heading">
+            <h2>Articles & News</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero amet, quasi modi delectus est consectetur.</p>
+        </div>
+
+        <div class="article-cards column grid">
+            <a href="#" class="a-card column">
+                <div><img src="media/c5.jpg" alt=""></div>
+                <h3>Let's Get Solution For Building Construction Work</h3>
+                <div class="card-content row">
+                    <p>26 December, 2023</p>
+                    <div class="row">
+                        <box-icon type='solid' name='right-arrow'></box-icon>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="a-card column">
+                <div><img src="media/c6.jpg" alt=""></div>
+                <h3>Let's Get Solution For Building Construction Work</h3>
+                <div class="card-content row">
+                    <p>26 December, 2023</p>
+                    <div class="row">
+                        <box-icon type='solid' name='right-arrow'></box-icon>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="a-card column">
+                <div><img src="media/c7.jpg" alt=""></div>
+                <h3>Let's Get Solution For Building Construction Work</h3>
+                <div class="card-content row">
+                    <p>26 December, 2023</p>
+                    <div class="row">
+                        <box-icon type='solid' name='right-arrow'></box-icon>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- End Article -->
+
+    <!-- Join -->
+    <section class="join container">
+        <div class="heading">
+            <h2>Wanna join the Atmosphere Designs?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+        <form action="" class="column">
+            <input type="email" name="" id="" placeholder="example@email.com">
+            <button type="submit" class="page-btn row">
+                contact us
+                <box-icon name='right-arrow-alt' color='#ffffff' ></box-icon>
+            </button>
+        </form>
+    </section>
+    <!-- End Join -->
+
+    <!-- Footer -->
+    <footer class="container">
+        <div class="footer row">
+            <div class="footer-content">
+               <a href="#" class="logo"><img src="media/logo.png" alt=""></a> 
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, harum.</p>
+               <p>35 Birchwood Ave, Brooklyn, New York 11201</p>
+            </div>
+            <div>
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Our projects</a></li>
+                    <li><a href="">Our team</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="">Kitchen</a></li>
+                    <li><a href="">Loving area</a></li>
+                    <li><a href="">Bathroom</a></li>
+                    <li><a href="">Dining room</a></li>
+                    <li><a href="">Bedroom</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <div class="links row">
+                    <a href="#">
+                        <box-icon name='facebook' type='logo' ></box-icon>
+                    </a>
+                    <a href="#">
+                        <box-icon type='logo' name='instagram'></box-icon>
+                    </a>
+                    <a href="#">
+                        <box-icon type='logo' name='linkedin'></box-icon>
+                    </a>
+                    <a href="#">
+                        <box-icon type='logo' name='twitter'></box-icon>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="mailto:contact@atmospheredesigns.com">contact@atmospheredesigns.com</a></li>
+                    <li><a href="tel:+012 345 6789">+012 345 6789</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copy-right">Copyright &copy;</p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
